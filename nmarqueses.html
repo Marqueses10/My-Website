@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      background-image: url('https://wallpapers.com/images/hd/light-color-background-vmkuihk29pi1xq65.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: Arial;
+       padding-top: 60px;
+    
+    }
+    
+    h1 {
+  font-size: 32px;
+  
+}
+
+h2 {
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 20px;
+}
+#home {
+  text-align: center;
+}
+#home .box {
+  text-align: center;
+}
+
+#home p {
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+html { 
+    scroll-behavior: smooth;
+}
+
+     nav {
+    position: fixed;
+    font-size: 18px;
+    top: 0;
+    left: 0;
+    width: 100%;
+     background-color: #222;;
+    padding: 10px;
+
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  }
+  nav a {
+  color: white;
+  text-decoration: none;
+   transition: 0.3s;
+  }
+    nav a:hover {
+   color:aqua;
+   border-bottom: 2px solid aqua;
+  padding-bottom: 3px;
+}
+    section {
+      padding: 100px 20px;
+    }
+   
+    .box {
+        transition: 0.3s;
+     width: 100%;
+  margin: auto;
+  text-align: left;
+  line-height: 1.6;
+  max-width: 750px;
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+    .back-top {
+     position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: gray;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+    }  
+  .back-top:hover {
+    text-decoration: underline;
+color: aqua ;
+
+  }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  margin-top: 40px;
+}
+.profile {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.cta-btn:hover {
+  background: black;
+  text-decoration: aqua underline;
+  color: aqua ;
+}
+@media (max-width: 768px) {
+  .box {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+  </style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#home">Home</a> 
+  <a href="#about">About</a> 
+  <a href="#experience">Experience</a> 
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+    <div class="box">
+  <img src="Marqueses.jpg" class="profile"  alt="Portfolio photo">
+
+  <h1>
+    My Portfolio
+    <a href="https://www.linkedin.com/in/gilberto-jr-marqueses-5373a5283/" target="_blank">
+      <img src="linkedin.jpg" width="20"alt="LinkedIn logo">
+    </a>
+  </h1>
+
+  <h3>Gilberto C. Marqueses Jr.</h3>
+  <h3>Virtual Assistant | Customer Service Specialist | Talent Acquisition</h3>
+
+  <p> I help businesses streamline operations and deliver excellent customer support.</p>
+<p> Experienced in healthcare staffing, CRM systems, and virtual assistance.</p>
+      
+
+     <p>Currently expanding my skills in web development to provide
+      complete digital solutions for clients.
+    </p>
+     <a href="#contact" class="cta-btn">Hire Me</a>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+     <div class="box">
+  <h1>About Me</h1>
+
+  <p>
+    I am a detail-oriented and highly organized professional with a strong
+    background in virtual assistance, customer service, and healthcare talent
+    management. I specialize in credentialing, candidate sourcing, and CRM
+    management, ensuring all processes are accurate, efficient, and compliant.
+  </p>
+
+  <p>
+    Over the years, I have worked with recruitment teams and clients in
+    fast-paced environments where attention to detail and time management
+    are critical. I am passionate about helping businesses stay organized,
+    improving workflow systems, and delivering high-quality service.
+  </p>
+<p >
+    I graduated with a Bachelor of Science in Business Administration,
+    major in Financial Management, from Rizal College of Taal (2015-2018).
+    My educational background has helped me develop strong analytical,
+    organizational, and problem-solving skills that I apply in my work.
+  </p>
+  <p>
+    I am currently learning front-end development (HTML, CSS, and WordPress)
+    to expand my capabilities and offer complete support—from administrative
+    tasks to building and managing websites.
+  </p>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" >
+     <div class="box">
+  <h1>Experience</h1>
+
+  <h3>Credentialing Specialist - PSG Global Solutions</h3>
+    <ul>
+        <li>Managed licensure and compliance documents using the Nomad platform</li>
+        <li>Ensured all credentials meet regulatory standards and requirements</li>
+        <li>Monitored expiring licenses and coordinated timely renewals</li>
+        <li>Maintained accurate and up-to-date records</li>
+        <li>Collaborated with recruitment teams to ensure clinician eligibility</li>
+    </ul>
+
+    <h3>Virtual Assistant / Customer Service</h3>
+    <ul>
+        <li>Handled customer support via email, chat, and phone</li>
+        <li>Assisted customers with orders, returns, and inquiries</li>
+        <li>Provided professional and timely responses to improve customer satisfaction</li>
+        <li>Maintained CRM records and tracked leads and follow-ups</li>
+        <li>Supported administrative tasks and scheduling</li>
+    </ul>
+    <h3>Sourcing Specialist</h3>
+    <ul>
+        <li>Sourced qualified healthcare candidates using ATS and job boards</li>
+        <li>Screened applicants and conducted initial assessments</li>
+        <li>Maintained accurate candidate databases</li>
+        <li>Delivered insights using platforms like CareerBuilder and TravelNurseSource</li>
+        <li>Supported recruitment pipeline and hiring process</li>
+    </ul>
+    
+    <h2>Skills</h2>
+
+    <h3>Administrative & Support</h3>
+    <ul>
+        <li>Customer Service (Email, Chat, Phone)</li>
+        <li>Scheduling & Coordination</li>
+        <li>Data Entry & Reporting</li>
+        <li>Attention to Detail & Confidentiality</li>
+    </ul>
+
+    <h3>Technical Skills</h3>
+    <ul>
+        <li>CRM & Database Management</li>
+        <li>Applicant Tracking Systems (ATS)</li>
+        <li>Microsoft Office / Google Workspace</li>
+    </ul>
+</div>
+</section>
+
+<section id="projects">
+  <div class="box">
+    <h1>Projects</h1>
+
+    <h3>Portfolio Website</h3>
+    <p>My first personal portfolio built using HTML and CSS.</p>
+
+    <h3>Coming Soon</h3>
+    <p>More projects will be added as I continue learning web development.</p>
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact">
+     <div class="box">
+  <h1>Contact</h1>
+    
+  <p>Email: nmarqueses28@gmail.com</p>
+  <p>Phone: 09264411839</p>
+  <p>Location: Bancoro San Nicolas Batangas, Philippines</p>
+</div>
+</section>
+
+<!-- BUTTON -->
+<a href="#home" class="back-top">Back to Top</a>
+
+<footer><p>© 2026 Gilberto Marqueses. All rights reserved.</p></footer>
+</body>
+</html>
